@@ -1,8 +1,8 @@
 
 h1{
-    color: rgb(201, 101, 8);
+    color: rgb(213, 11, 11);
     text-align: center;
-    background-color: rgb(183, 148, 95);
+    background-color: aquamarine;
     padding: 7px;
     font-family: Montserrat ,sans-serif;
     margin-left: 20px;
@@ -10,7 +10,7 @@ h1{
 }
 body{
     text-align: center;
-    background-image: url("café.jpg");
+    background-image: url("fondo-tecnologia-digital-alambre-malla-red_1017-27428.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -25,7 +25,6 @@ img{
     border-radius: 50%;
 }
 #resultado{
-    background-color: white;
     text-align: center;
 /*Esto hace que el navegador interprete los saltos de línea*/
     white-space: pre-line;
