@@ -34,8 +34,13 @@ function calcular() {
   
 }
 function mostrarContenido() {
-    document.getElementById("contenido").style.display = "block";
-
+   const especial = document.querySelector('input[name="casoEspecial"]:checked').value;
+   if (especial === "no"){
+   return;
+   }
+  else{document.getElementById("contenido").style.display = "block";
+}
+    
   
   
 }
@@ -60,8 +65,10 @@ function calcular2(){
   const kilos = parseFloat(document.getElementById("kilos2").value);
   const precio = parseFloat(document.getElementById("precioKilo").value);
   const días = parseFloat(document.getElementById("días").value);
+  
   const comida = document.querySelector('input[name="alimento2"]:checked').value;
   const comidaDia = 5000
+
 
   let total2 = kilos*precio*días;
    if (kilos == 0 || precio == 0){
@@ -72,7 +79,9 @@ function calcular2(){
     if(comida === "si"){
     total2 -= (comidaDia*días)
   }
+  if (especial === "no"){
     
+  }
   document.getElementById("r1").textContent =
     "Ganancia semanal: $" +total2+"\nFelicidades";
   document.getElementById("r2").textContent=
