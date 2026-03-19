@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganacias de cogedor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css"/>
+</head>
+<body>
+    <h1>Calcula tus ganancias</h1>
+    <label class="linea1">Cuantos kilos recolectaste en tu semana?</label> 
+    <input type="number" id="kilos">   
+    <br>
+    <label class="linea2">Cuanto pagan por el kilo</label>
+    <input type="number" id="precio">
+    <br>
+
+<label>¿Tuviste gasto en alimento?</label><br>
+
+<input type="radio" id="alimento_si" name="alimento" value="si">
+<label for="alimento_si">Sí</label>
+<br>
+
+<input type="radio" id="alimento_no" name="alimento" value="no" checked>
+<label for="alimento_no">No</label>
+<p>Nota: el valor de la comida es de 5000 pesos el día<area shape="" coords="" href="" alt=""></p>
+<br> 
+
+<button onclick="calcular()">Calcular</button>
+<h2 id="resultado"></h2>
+<h2 id="resultado2"></h2>
+<h2 id="valorcomida"></h2>
+<br>
+<h1>Calculadora para sumar</h1>
+<p>día 1</p>
+<input type="number", id="1">
+<p>día 2</p>
+<input type="number" name="" id="2">
+<p>día 3</p>
+<input type="number" name="" id="3">
+<p>día 4</p>
+<input type="number" name="" id="4">
+<p>día 5</p>
+<input type="number" name="" id="5">
+<button onclick="sumar()">sumar</button>
+<h2 id="suma"></h2>
+<br>
+<h1>Caso especial Seleccionando los días trabajados</h1>
+<label >Caso especial?</label>
+<input type="radio" id="casoEspecial" name="casoEspecial" value="si">
+<label for="casoEspecial_si">Sí</label>
+<input type="radio" id="casoEspecial" name="casoEspecial" value="no">
+<label for="casoEspecial_no">No</label>
+<button onclick="mostrarContenido()">siguiente</button>
+<div id="contenido" style="display: none;">
+    <!--funsión 2-->
+    <p>ingresa los datos literalmente</p>
+    <label for="">Cuantos kilos cogiste al día</label>
+    <input type="number" name="kilosRecogidos" id="kilos2">
+    <br>
+    <label for="">Precio del kilo</label>
+    <input type="number" name="Precio" id="precioKilo">
+    <br>
+    <label for="">Cuantos días trabajaste</label>
+    <input type="number" name="días" id="días">
+    <br>
+    <label>¿Tuviste gasto en alimento?</label><br>
+
+    <!--en el caso especial agregemos días trabajados, para hacer referencia que no se trabajaron todos los días-->
+
+<input type="radio" id="alimento_si" name="alimento2" value="si">
+<label for="alimento_si">Sí</label>
+<input type="radio" name="alimento2" id="alimento_no" value="no">
+<label for="alimento_no">No</label>
+
+
+
+<button onclick="calcular2()">Calcular</button>
+
+
+<h2 id="r1"></h2>
+<h2 id="r2"></h2>
+<p id="r4"></p>
+
+</div>
+
+<script src="Script.js"></script>
+<div>
+<img src="https://live.staticflickr.com/3175/2871214705_245d04d5cc_b.jpg" alt="">
+</div>
+</body>
+</html>

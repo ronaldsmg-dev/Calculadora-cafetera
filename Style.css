@@ -1,0 +1,57 @@
+
+h1{
+    color:  red;
+    text-align: center;
+    background-color: cyan;
+    padding: 7px;
+    font-family: Montserrat ,sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+body{
+    text-align: center;
+    background-image: url("fondo-tecnologia-digital-alambre-malla-red_1017-27428.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+   
+img{
+
+    padding: 5px;
+    background-color: brown;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+#resultado{
+    background-color: aquamarine;
+    text-align: center;
+/*Esto hace que el navegador interprete los saltos de línea*/
+    white-space: pre-line;
+    color: blueviolet;
+}
+#resultado2{
+    color: red;
+}
+#valorcomida{
+    color: green;
+}
+#r4{
+    color: red;
+    
+    padding: 5px;
+}
+#r2{
+    color: blue;
+}
+button{
+    background: red;
+    color: black;
+    padding: 10px 2px;
+    border-radius: 5px;
+    cursor: pointer;}
+}
+input{
+    background-color: aquamarine;
+}
