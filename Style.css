@@ -54,3 +54,30 @@ button{
 input{
     background-color: aquamarine;
 }
+.tarjeta {
+  width: 400px;
+  margin: 50px auto;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  text-align: center;}
+.tarjeta2{
+    width: 400px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;}
+
+.tarjeta3{
+    width: 400px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center
+    
+}
