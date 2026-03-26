@@ -1,8 +1,8 @@
 
 h1{
-    color: rgb(213, 11, 11);
+    color: #0F172A;
     text-align: center;
-    background-color: aquamarine;
+    background-color: #6EE7B7;
     padding: 7px;
     font-family: Montserrat ,sans-serif;
     margin-left: 20px;
@@ -20,7 +20,7 @@ body{
 img{
 
     padding: 5px;
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
     height: 500px;
     width: 500px;
     border-radius: 50%;
@@ -37,7 +37,7 @@ img{
 #valorcomida{
     color: black;
 }
-#r4{
+#r3{
     color: red;
     
     padding: 5px;
@@ -46,19 +46,22 @@ img{
     color: blue;
 }
 button{
-    background: rgb(163, 121, 121);
+    background: #10B981;
     color: rgb(0, 0, 0);
     padding: 10px 2px;
     border-radius: 5px;
     cursor: pointer;}
 }
+button:hover{
+    background-color: #0369A1;
+}
 input{
-    background-color: aquamarine;
+    background-color: #D1FAE5;
 }
 .tarjeta {
   width: 400px;
   margin: 50px auto;
-  background: #ffffff;
+  background: #EAF2F8;
   border-radius: 15px;
   padding: 25px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
@@ -66,7 +69,7 @@ input{
 .tarjeta2{
     width: 400px;
     margin: 50px auto;
-    background: #ffffff;
+    background: #EAF2F8;
     border-radius: 15px;
     padding: 25px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
@@ -75,7 +78,7 @@ input{
 .tarjeta3{
     width: 400px;
     margin: 50px auto;
-    background: #ffffff;
+    background: #EAF2F8;
     border-radius: 15px;
     padding: 25px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);

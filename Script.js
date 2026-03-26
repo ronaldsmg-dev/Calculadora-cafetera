@@ -36,6 +36,7 @@ function calcular() {
 function mostrarContenido() {
    const especial = document.querySelector('input[name="casoEspecial"]:checked').value;
    if (especial === "no"){
+    return;
    
    }
   else{document.getElementById("contenido").style.display = "block";
@@ -44,7 +45,7 @@ function mostrarContenido() {
   
   
 }
-function sumar(a, b, c){
+function sumar(){
   a = parseFloat(document.getElementById("1").value) || 0;
   b = parseFloat(document.getElementById("2").value) || 0;
   c = parseFloat(document.getElementById("3").value) || 0;
@@ -69,7 +70,7 @@ function calcular2(){
   const comidaDia = 5000
 
 
-  let total2 = kilos*precio*días;
+  let total2 = (kilos*precio*días);
    if (kilos == 0 || precio == 0){
   document.getElementById("resultado").innerText = 
     "Por favor ingresa valores válidos";
@@ -82,7 +83,7 @@ function calcular2(){
     "Ganancia semanal: $" +total2+"\nFelicidades";
   document.getElementById("r2").textContent=
     "kilos ingresados: "+ kilos
-  document.getElementById("r4").textContent = "Trabajaste: "+
+  document.getElementById("r3").textContent = "Trabajaste: "+
   días+ " días"
   
 }
